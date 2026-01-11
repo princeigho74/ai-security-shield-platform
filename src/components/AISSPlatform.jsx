@@ -659,17 +659,25 @@ const AISSPlatform = () => {
                   <h4 className="text-xl font-semibold mb-4">Let's Build a Safer Africa Together</h4>
                   <div className="flex flex-wrap justify-center gap-4">
                     <a
-                      href="mailto:smartxpress74@gmail.com?subject=AISS Partnership Inquiry"
-                      className="px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+                      href="https://whatsapp.com/dl/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center gap-2"
                     >
-                      Partner With Us
+                      <Phone className="w-5 h-5" />
+                      Let's chat on WhatsApp!
                     </a>
                     <a
-                      href="mailto:smartxpress74@gmail.com?subject=AISS Investment Inquiry"
-                      className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105"
+                      href="mailto:smartxpress74@gmail.com?subject=AISS Investment Inquiry&body=Hello Happy,%0D%0A%0D%0AI am interested in investing in AI Security Shield (AISS).%0D%0A%0D%0AName:%0D%0APhone: %0D%0AInvestment Interest:%0D%0A%0D%0ABest regards"
+                      className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all transform hover:scale-105 flex items-center gap-2"
                     >
+                      <Mail className="w-5 h-5" />
                       Invest in AISS
                     </a>
+                  </div>
+                  <div className="mt-6 text-gray-400">
+                    <p className="mb-2">📧 smartxpress74@gmail.com</p>
+                    <p>📱 +234 806 529 2102</p>
                   </div>
                 </div>
               </div>
