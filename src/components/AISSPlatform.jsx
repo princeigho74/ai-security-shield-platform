@@ -547,12 +547,12 @@ const AISSPlatform = () => {
                     <div className="relative inline-block mb-4">
                       <div className="w-48 h-48 rounded-2xl overflow-hidden border-4 border-purple-500 shadow-2xl">
                         <img 
-                          src="https://i.imgur.com/VL2x79i.png" 
+                          src="https://i.imgur.com/Cr8MgYI.png" 
                           alt="Happy Igho Umukoro" 
                           className="w-full h-full object-cover"
                           onError={(e) => {
-                            e.target.style.display = 'none';
-                            e.target.nextElementSibling.style.display = 'flex';
+                            e.currentTarget.style.display = 'none';
+                            e.currentTarget.nextElementSibling.style.display = 'flex';
                           }}
                         />
                         <div className="w-full h-full bg-gradient-to-br from-cyan-500 via-purple-500 to-pink-500 hidden items-center justify-center">
@@ -569,7 +569,7 @@ const AISSPlatform = () => {
                         alt="AISS Logo" 
                         className="w-24 h-24 object-contain"
                         onError={(e) => {
-                          e.target.style.display = 'none';
+                          e.currentTarget.style.display = 'none';
                         }}
                       />
                     </div>
